@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+ /* display: flex;*/
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  background-color:lightsalmon;
+  color:lightseagreen;
+  height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#root {
+  height: 100%;
+}
+
+.App{
+ /* display:  flex;
+  height: 100%;*/
+  justify-content: center;
+  align-items: center;
+}
+.pomodoro{
+  font-size: 6em;
+}
+.message{
+  font-size: 0.5em;
+  min-height: 1.3em;
+  margin-bottom: 0.5em;
+
+
+}
+
+button{
+  background-color: transparent;
+  color: lightseagreen;
+  display:inline-block;
+  border: 0px;
+  cursor: pointer;
+  width:100px;
+ 
+}
